@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 public class SearchFlightFare {
 
 	private FlightDetail[] details;
-	private int timeout = 4000;
+	private int timeout = 10000;
 	private Document doc = null;
 	private String BASE_URL = "https://booking.airasia.com/Flight/InternalSelect?o1=%s&d1=%s&dd1=%s&dd2=%s&r=%s&ADT=%s&CHD=%s&inl=%s&s=true&mon=true&culture=id-ID&cc=%s";
 	private String URL;
