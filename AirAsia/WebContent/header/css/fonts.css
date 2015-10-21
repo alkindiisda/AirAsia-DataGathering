@@ -1,0 +1,12 @@
+/* 
+
+	Fonts.
+
+*/
+
+@font-face {
+font-family:"Museo";
+src:url(../fonts/Museo500-Regular.otf);
+font-style:normal;
+font-weight:500;
+}
